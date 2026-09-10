@@ -7,13 +7,13 @@ import { SocialLinks } from "@/components/SocialLinks";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Carol C Justino — Designer de Branding, Web e UX/UI" },
+      { title: "Portfólio Carol Justino" },
       {
         name: "description",
         content:
           "Portfólio de Carol C Justino: branding, websites, identidade visual, UX & UI, artes gráficas e filtros. Projetos no Behance.",
       },
-      { property: "og:title", content: "Carol C Justino — Designer de Branding, Web e UX/UI" },
+      { property: "og:title", content: "Portfólio Carol Justino" },
       {
         property: "og:description",
         content:

@@ -9,13 +9,13 @@ const WHATSAPP_URL =
 export const Route = createFileRoute("/orcamento")({
   head: () => ({
     meta: [
-      { title: "Orçamento — Carol C Justino" },
+      { title: "Orçamento — Portfólio Carol Justino" },
       {
         name: "description",
         content:
           "Peça um orçamento personalizado de branding, website, identidade visual, UX & UI ou artes gráficas com Carol C Justino pelo WhatsApp.",
       },
-      { property: "og:title", content: "Orçamento — Carol C Justino" },
+      { property: "og:title", content: "Orçamento — Portfólio Carol Justino" },
       {
         property: "og:description",
         content: "Fale comigo no WhatsApp e receba um orçamento personalizado para o seu projeto.",

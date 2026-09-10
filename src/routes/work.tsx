@@ -7,13 +7,13 @@ import { projects } from "@/data/projects";
 export const Route = createFileRoute("/work")({
   head: () => ({
     meta: [
-      { title: "Trabalhos — Carol C Justino" },
+      { title: "Trabalhos — Portfólio Carol Justino" },
       {
         name: "description",
         content:
           "Seleção de projetos de branding, websites, identidade visual, UX & UI e artes gráficas de Carol C Justino, com links para os cases no Behance.",
       },
-      { property: "og:title", content: "Trabalhos — Carol C Justino" },
+      { property: "og:title", content: "Trabalhos — Portfólio Carol Justino" },
       {
         property: "og:description",
         content:

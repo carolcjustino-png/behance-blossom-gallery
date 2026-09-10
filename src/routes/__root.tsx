@@ -77,13 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Carol C Justino — Designer" },
+      { title: "Portfólio Carol Justino" },
       {
         name: "description",
         content: "Portfólio de design de Carol C Justino: branding, web, identidade visual e UX/UI.",
       },
       { name: "author", content: "Carol C Justino" },
-      { property: "og:title", content: "Carol C Justino — Designer" },
+      { property: "og:title", content: "Portfólio Carol Justino" },
       {
         property: "og:description",
         content: "Portfólio de design de Carol C Justino: branding, web, identidade visual e UX/UI.",
@@ -102,7 +102,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", type: "image/png", href: "/favicon.png" },
     ],
   }),
 
